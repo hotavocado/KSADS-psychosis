@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "cpsy89",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "How many days of school did you miss because of (insert symptoms)? (lifetime) \r\n\r\n _(N days, N weeks, N months)_",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

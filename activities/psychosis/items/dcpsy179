@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dcpsy179",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "Please describe (depressed):",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

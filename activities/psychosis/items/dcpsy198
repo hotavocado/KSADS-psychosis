@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dcpsy198",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "### Total Number of Episodes\r\n\r\nHow many different times have you felt/acted this way? \r\n\r\n _INTERVIEWER: Different episodes should be seperated by at least 2 months)_",
+    "schema:description": "TIMES",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

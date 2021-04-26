@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "cpsy67",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": "### Associated Conditions\r\n\r\n_INTERVIEWER: Probe to find out if the above psychotic symptoms were associated with any of the following:_",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

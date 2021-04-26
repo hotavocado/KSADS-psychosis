@@ -1,0 +1,1009 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-psychosis/master/activities/psychosis/psychosis_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "psychosis_schema",
+    "skos:prefLabel": "Psychosis",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "psychosis_title",
+                "isAbout": "psychosis_title",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy0",
+                "isAbout": "cpsy0",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy001",
+                "isAbout": "dcpsy001",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy2",
+                "isAbout": "cpsy2",
+                "isVis": "dcpsy001 == '1'"
+            },
+            {
+                "variableName": "dcpsy006",
+                "isAbout": "dcpsy006",
+                "isVis": true
+            },
+            {
+                "variableName": "cspy4",
+                "isAbout": "cspy4",
+                "isVis": "dcpsy006 == '1'"
+            },
+            {
+                "variableName": "dcpsy011",
+                "isAbout": "dcpsy011",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy6",
+                "isAbout": "cpsy6",
+                "isVis": "dcpsy011 == '1'"
+            },
+            {
+                "variableName": "dcpsy016",
+                "isAbout": "dcpsy016",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy8",
+                "isAbout": "cpsy8",
+                "isVis": "dcpsy016 == '1'"
+            },
+            {
+                "variableName": "dcpsy021",
+                "isAbout": "dcpsy021",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy10",
+                "isAbout": "cpsy10",
+                "isVis": "dcpsy021 == '1'"
+            },
+            {
+                "variableName": "dcpsy026",
+                "isAbout": "dcpsy026",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy12",
+                "isAbout": "cpsy12",
+                "isVis": "dcpsy026 == '1'"
+            },
+            {
+                "variableName": "dcpsy031",
+                "isAbout": "dcpsy031",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy14",
+                "isAbout": "cpsy14",
+                "isVis": "dcpsy031 == '1'"
+            },
+            {
+                "variableName": "dcpsy036",
+                "isAbout": "dcpsy036",
+                "isVis": "dcpsy031 == '1'"
+            },
+            {
+                "variableName": "dcpsy037",
+                "isAbout": "dcpsy037",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy16",
+                "isAbout": "cpsy16",
+                "isVis": "dcpsy037 == '1'"
+            },
+            {
+                "variableName": "dcpsy042",
+                "isAbout": "dcpsy042",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy18",
+                "isAbout": "cpsy18",
+                "isVis": "dcpsy042 == '1'"
+            },
+            {
+                "variableName": "dcpsy047",
+                "isAbout": "dcpsy047",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy20",
+                "isAbout": "cpsy20",
+                "isVis": "dcpsy047 == '1'"
+            },
+            {
+                "variableName": "cpsy21",
+                "isAbout": "cpsy21",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy054",
+                "isAbout": "dcpsy054",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy055",
+                "isAbout": "dcpsy055",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy056",
+                "isAbout": "dcpsy056",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy057",
+                "isAbout": "dcpsy057",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy058",
+                "isAbout": "dcpsy058",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy059",
+                "isAbout": "dcpsy059",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy060",
+                "isAbout": "dcpsy060",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy061",
+                "isAbout": "dcpsy061",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy26",
+                "isAbout": "cpsy26",
+                "isVis": "dcpsy061 == '1'"
+            },
+            {
+                "variableName": "dcpsy066",
+                "isAbout": "dcpsy066",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy28",
+                "isAbout": "cpsy28",
+                "isVis": "dcpsy066 == '1'"
+            },
+            {
+                "variableName": "dcpsy071",
+                "isAbout": "dcpsy071",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy30",
+                "isAbout": "cpsy30",
+                "isVis": "dcpsy071 == '1'"
+            },
+            {
+                "variableName": "dcpsy076",
+                "isAbout": "dcpsy076",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy32",
+                "isAbout": "cpsy32",
+                "isVis": "dcpsy076 == '1'"
+            },
+            {
+                "variableName": "dcpsy081",
+                "isAbout": "dcpsy081",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy34",
+                "isAbout": "cpsy34",
+                "isVis": "dcpsy081 == '1'"
+            },
+            {
+                "variableName": "dcpsy086",
+                "isAbout": "dcpsy086",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy36",
+                "isAbout": "cpsy36",
+                "isVis": "dcpsy086 == '1'"
+            },
+            {
+                "variableName": "dcpsy091",
+                "isAbout": "dcpsy091",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy38",
+                "isAbout": "cpsy38",
+                "isVis": "dcpsy091 == '1'"
+            },
+            {
+                "variableName": "dcpsy096",
+                "isAbout": "dcpsy096",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy097",
+                "isAbout": "dcpsy097",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy40",
+                "isAbout": "cpsy40",
+                "isVis": "dcpsy096 == '1' || dcpsy097 == '1'"
+            },
+            {
+                "variableName": "dcpsy102",
+                "isAbout": "dcpsy102",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy103",
+                "isAbout": "dcpsy103",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy42",
+                "isAbout": "cpsy42",
+                "isVis": "dcpsy102 == '1' || dcpsy103 == '1'"
+            },
+            {
+                "variableName": "dcpsy108",
+                "isAbout": "dcpsy108",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy44",
+                "isAbout": "cpsy44",
+                "isVis": "dcpsy108 == '1'"
+            },
+            {
+                "variableName": "dcpsy113",
+                "isAbout": "dcpsy113",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy114",
+                "isAbout": "dcpsy114",
+                "isVis": "dcpsy113 == '1'"
+            },
+            {
+                "variableName": "cpsy45",
+                "isAbout": "cpsy45",
+                "isVis": "dcpsy113 == '1'"
+            },
+            {
+                "variableName": "dcpsy119",
+                "isAbout": "dcpsy119",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy120",
+                "isAbout": "dcpsy120",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy121",
+                "isAbout": "dcpsy121",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy122",
+                "isAbout": "dcpsy122",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy123",
+                "isAbout": "dcpsy123",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy124",
+                "isAbout": "dcpsy124",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy125",
+                "isAbout": "dcpsy125",
+                "isVis": true
+            },
+            {
+                "variableName": "dcpsy126",
+                "isAbout": "dcpsy126",
+                "isVis": true
+            },
+            {
+                "variableName": "cpsy51",
+                "isAbout": "cpsy51",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy131",
+                "isAbout": "dcpsy131",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy132",
+                "isAbout": "dcpsy132",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy133",
+                "isAbout": "dcpsy133",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy134",
+                "isAbout": "dcpsy134",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy135",
+                "isAbout": "dcpsy135",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy136",
+                "isAbout": "dcpsy136",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "dcpsy137",
+                "isAbout": "dcpsy137",
+                "isVis": "dcpsy126 == '1'"
+            },
+            {
+                "variableName": "cpsy50",
+                "isAbout": "cpsy50",
+                "isVis": "dcpsy126 == '0'"
+            },
+            {
+                "variableName": "dcpsy139",
+                "isAbout": "dcpsy139",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy52",
+                "isAbout": "cpsy52",
+                "isVis": "dcpsy139 == '1'"
+            },
+            {
+                "variableName": "dcpsy144",
+                "isAbout": "dcpsy144",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy54",
+                "isAbout": "cpsy54",
+                "isVis": "dcpsy144 == '1'"
+            },
+            {
+                "variableName": "dcpsy149",
+                "isAbout": "dcpsy149",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy56",
+                "isAbout": "cpsy56",
+                "isVis": "dcpsy149 == '1'"
+            },
+            {
+                "variableName": "cpsy58",
+                "isAbout": "cpsy58",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy154",
+                "isAbout": "dcpsy154",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy155",
+                "isAbout": "dcpsy155",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cspy59",
+                "isAbout": "cspy59",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy156",
+                "isAbout": "dcpsy156",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy157",
+                "isAbout": "dcpsy157",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy60",
+                "isAbout": "cpsy60",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy158",
+                "isAbout": "dcpsy158",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy159",
+                "isAbout": "dcpsy159",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy61",
+                "isAbout": "cpsy61",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy160",
+                "isAbout": "dcpsy160",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy161",
+                "isAbout": "dcpsy161",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy62",
+                "isAbout": "cpsy62",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy162",
+                "isAbout": "dcpsy162",
+                "isVis": "cpsy62 == '1'"
+            },
+            {
+                "variableName": "dcpsy163",
+                "isAbout": "dcpsy163",
+                "isVis": "cpsy62 == '1'"
+            },
+            {
+                "variableName": "cpsy63",
+                "isAbout": "cpsy63",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy164",
+                "isAbout": "dcpsy164",
+                "isVis": "cpsy63 == '1'"
+            },
+            {
+                "variableName": "dcpsy165",
+                "isAbout": "dcpsy165",
+                "isVis": "cpsy63 == '1'"
+            },
+            {
+                "variableName": "cpsy64",
+                "isAbout": "cpsy64",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy166",
+                "isAbout": "dcpsy166",
+                "isVis": "cpsy64 == '1'"
+            },
+            {
+                "variableName": "dcpsy167",
+                "isAbout": "dcpsy167",
+                "isVis": "cpsy64 == '1'"
+            },
+            {
+                "variableName": "cpsy65",
+                "isAbout": "cpsy65",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy168",
+                "isAbout": "dcpsy168",
+                "isVis": "cpsy65 == '1'"
+            },
+            {
+                "variableName": "dcpsy169",
+                "isAbout": "dcpsy169",
+                "isVis": "cpsy65 == '1'"
+            },
+            {
+                "variableName": "cpsy66",
+                "isAbout": "cpsy66",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy170",
+                "isAbout": "dcpsy170",
+                "isVis": "cpsy66 == '1'"
+            },
+            {
+                "variableName": "dcpsy171",
+                "isAbout": "dcpsy171",
+                "isVis": "cpsy66 == '1'"
+            },
+            {
+                "variableName": "cpsy67",
+                "isAbout": "cpsy67",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy172",
+                "isAbout": "dcpsy172",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy173",
+                "isAbout": "dcpsy173",
+                "isVis": "dcpsy172 > 1 & dcpsy172 < 9"
+            },
+            {
+                "variableName": "dcpsy174",
+                "isAbout": "dcpsy174",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy175",
+                "isAbout": "dcpsy175",
+                "isVis": "dcpsy174 > 1 & dcpsy174 < 9"
+            },
+            {
+                "variableName": "dcpsy176",
+                "isAbout": "dcpsy176",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy177",
+                "isAbout": "dcpsy177",
+                "isVis": "dcpsy176 > 1 & dcpsy176 < 9"
+            },
+            {
+                "variableName": "dcpsy178",
+                "isAbout": "dcpsy178",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy179",
+                "isAbout": "dcpsy179",
+                "isVis": "dcpsy178 > 1 & dcpsy178 < 9"
+            },
+            {
+                "variableName": "dcpsy180",
+                "isAbout": "dcpsy180",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy181",
+                "isAbout": "dcpsy181",
+                "isVis": "dcpsy180 > 1 & dcpsy180 < 9"
+            },
+            {
+                "variableName": "dcpsy182",
+                "isAbout": "dcpsy182",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy183",
+                "isAbout": "dcpsy183",
+                "isVis": "dcpsy182 > 1 &  dcpsy182 < 9"
+            },
+            {
+                "variableName": "dcpsy184",
+                "isAbout": "dcpsy184",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy185",
+                "isAbout": "dcpsy185",
+                "isVis": "dcpsy184 > 1 & dcpsy184 < 9"
+            },
+            {
+                "variableName": "dcpsy186",
+                "isAbout": "dcpsy186",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy188",
+                "isAbout": "dcpsy188",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy189",
+                "isAbout": "dcpsy189",
+                "isVis": "dcpsy188 == '0'"
+            },
+            {
+                "variableName": "cpsy73",
+                "isAbout": "cpsy73",
+                "isVis": "dcpsy188 == '0'"
+            },
+            {
+                "variableName": "dcpsy193",
+                "isAbout": "dcpsy193",
+                "isVis": "dcpsy188 == '0'"
+            },
+            {
+                "variableName": "cpsy77",
+                "isAbout": "cpsy77",
+                "isVis": "dcpsy188 == '1'"
+            },
+            {
+                "variableName": "dcpsy194",
+                "isAbout": "dcpsy194",
+                "isVis": "dcpsy188 == '1'"
+            },
+            {
+                "variableName": "dcpsy198",
+                "isAbout": "dcpsy198",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy80",
+                "isAbout": "cpsy80",
+                "isVis": "dcpsy193 !== '1' && dcpsy194 !== '1'"
+            },
+            {
+                "variableName": "dcpsy202",
+                "isAbout": "dcpsy202",
+                "isVis": "dcpsy193 !== '1' && dcpsy194 !== '1'"
+            },
+            {
+                "variableName": "dcpsy203",
+                "isAbout": "dcpsy203",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy83",
+                "isAbout": "cpsy83",
+                "isVis": "dcpsy203 == '1'"
+            },
+            {
+                "variableName": "cpsy86",
+                "isAbout": "cpsy86",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy207",
+                "isAbout": "dcpsy207",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy208",
+                "isAbout": "dcpsy208",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy209",
+                "isAbout": "dcpsy209",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy89",
+                "isAbout": "cpsy89",
+                "isVis": "dcpsy209 == '1'"
+            },
+            {
+                "variableName": "dcpsy213",
+                "isAbout": "dcpsy213",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "dcpsy214",
+                "isAbout": "dcpsy214",
+                "isVis": "dcpsy126 == '1' || cpsy50 == '1'"
+            },
+            {
+                "variableName": "cpsy91",
+                "isAbout": "cpsy91",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy215",
+                "isAbout": "dcpsy215",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy216",
+                "isAbout": "dcpsy216",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy217",
+                "isAbout": "dcpsy217",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy218",
+                "isAbout": "dcpsy218",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy219",
+                "isAbout": "dcpsy219",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy220",
+                "isAbout": "dcpsy220",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy221",
+                "isAbout": "dcpsy221",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy223",
+                "isAbout": "dcpsy223",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy224",
+                "isAbout": "dcpsy224",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy225",
+                "isAbout": "dcpsy225",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy226",
+                "isAbout": "dcpsy226",
+                "isVis": "dcpsy225 == '0'"
+            },
+            {
+                "variableName": "dcpsy227",
+                "isAbout": "dcpsy227",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "cpsy93",
+                "isAbout": "cpsy93",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy231",
+                "isAbout": "dcpsy231",
+                "isVis": "cpsy93.includes(3)"
+            },
+            {
+                "variableName": "dcpsy232",
+                "isAbout": "dcpsy232",
+                "isVis": "dcpsy214 == '1'"
+            },
+            {
+                "variableName": "dcpsy233",
+                "isAbout": "dcpsy233",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy234",
+                "isAbout": "dcpsy234",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy235",
+                "isAbout": "dcpsy235",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy236",
+                "isAbout": "dcpsy236",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy237",
+                "isAbout": "dcpsy237",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy238",
+                "isAbout": "dcpsy238",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy239",
+                "isAbout": "dcpsy239",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "dcpsy240",
+                "isAbout": "dcpsy240",
+                "isVis": "dcpsy232 == '1'"
+            },
+            {
+                "variableName": "cpsy_end",
+                "isAbout": "cpsy_end",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "psychosis_title",
+            "cpsy0",
+            "dcpsy001",
+            "cpsy2",
+            "dcpsy006",
+            "cspy4",
+            "dcpsy011",
+            "cpsy6",
+            "dcpsy016",
+            "cpsy8",
+            "dcpsy021",
+            "cpsy10",
+            "dcpsy026",
+            "cpsy12",
+            "dcpsy031",
+            "cpsy14",
+            "dcpsy036",
+            "dcpsy037",
+            "cpsy16",
+            "dcpsy042",
+            "cpsy18",
+            "dcpsy047",
+            "cpsy20",
+            "cpsy21",
+            "dcpsy054",
+            "dcpsy055",
+            "dcpsy056",
+            "dcpsy057",
+            "dcpsy058",
+            "dcpsy059",
+            "dcpsy060",
+            "dcpsy061",
+            "cpsy26",
+            "dcpsy066",
+            "cpsy28",
+            "dcpsy071",
+            "cpsy30",
+            "dcpsy076",
+            "cpsy32",
+            "dcpsy081",
+            "cpsy34",
+            "dcpsy086",
+            "cpsy36",
+            "dcpsy091",
+            "cpsy38",
+            "dcpsy096",
+            "dcpsy097",
+            "cpsy40",
+            "dcpsy102",
+            "dcpsy103",
+            "cpsy42",
+            "dcpsy108",
+            "cpsy44",
+            "dcpsy113",
+            "dcpsy114",
+            "cpsy45",
+            "dcpsy119",
+            "dcpsy120",
+            "dcpsy121",
+            "dcpsy122",
+            "dcpsy123",
+            "dcpsy124",
+            "dcpsy125",
+            "dcpsy126",
+            "cpsy51",
+            "dcpsy131",
+            "dcpsy132",
+            "dcpsy133",
+            "dcpsy134",
+            "dcpsy135",
+            "dcpsy136",
+            "dcpsy137",
+            "cpsy50",
+            "dcpsy139",
+            "cpsy52",
+            "dcpsy144",
+            "cpsy54",
+            "dcpsy149",
+            "cpsy56",
+            "cpsy58",
+            "dcpsy154",
+            "dcpsy155",
+            "cspy59",
+            "dcpsy156",
+            "dcpsy157",
+            "cpsy60",
+            "dcpsy158",
+            "dcpsy159",
+            "cpsy61",
+            "dcpsy160",
+            "dcpsy161",
+            "cpsy62",
+            "dcpsy162",
+            "dcpsy163",
+            "cpsy63",
+            "dcpsy164",
+            "dcpsy165",
+            "cpsy64",
+            "dcpsy166",
+            "dcpsy167",
+            "cpsy65",
+            "dcpsy168",
+            "dcpsy169",
+            "cpsy66",
+            "dcpsy170",
+            "dcpsy171",
+            "cpsy67",
+            "dcpsy172",
+            "dcpsy173",
+            "dcpsy174",
+            "dcpsy175",
+            "dcpsy176",
+            "dcpsy177",
+            "dcpsy178",
+            "dcpsy179",
+            "dcpsy180",
+            "dcpsy181",
+            "dcpsy182",
+            "dcpsy183",
+            "dcpsy184",
+            "dcpsy185",
+            "dcpsy186",
+            "dcpsy188",
+            "dcpsy189",
+            "cpsy73",
+            "dcpsy193",
+            "cpsy77",
+            "dcpsy194",
+            "dcpsy198",
+            "cpsy80",
+            "dcpsy202",
+            "dcpsy203",
+            "cpsy83",
+            "cpsy86",
+            "dcpsy207",
+            "dcpsy208",
+            "dcpsy209",
+            "cpsy89",
+            "dcpsy213",
+            "dcpsy214",
+            "cpsy91",
+            "dcpsy215",
+            "dcpsy216",
+            "dcpsy217",
+            "dcpsy218",
+            "dcpsy219",
+            "dcpsy220",
+            "dcpsy221",
+            "dcpsy223",
+            "dcpsy224",
+            "dcpsy225",
+            "dcpsy226",
+            "dcpsy227",
+            "cpsy93",
+            "dcpsy231",
+            "dcpsy232",
+            "dcpsy233",
+            "dcpsy234",
+            "dcpsy235",
+            "dcpsy236",
+            "dcpsy237",
+            "dcpsy238",
+            "dcpsy239",
+            "dcpsy240",
+            "cpsy_end"
+        ],
+        "shuffle": false
+    }
+}

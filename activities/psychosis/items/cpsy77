@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "cpsy77",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "### Duration of Current Episode\r\n\r\nHow long have you been feeling/acting this way? \r\n\r\n _(N days, N weeks, N months)_",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

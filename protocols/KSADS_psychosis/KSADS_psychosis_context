@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/KSADS-psychosis/master/activities/",
+        "psychosis": {
+            "@id": "activity_path:psychosis/psychosis_schema",
+            "@type": "@id"
+        }
+    }
+}

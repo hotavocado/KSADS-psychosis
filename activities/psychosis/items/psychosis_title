@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "psychosis_title",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": "## Pyschosis",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}
